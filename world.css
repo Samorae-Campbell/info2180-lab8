@@ -1,0 +1,85 @@
+html { 
+  background: url(http://abstractatus.com/images/2013/07/a-good-desktop-background-xpx-a-good-day-to.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	color: black;
+	font-size: 87.5%; /* Base font size is usually 14 (pixels) */
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align:left;
+}
+
+.body{
+	margin: 0 auto; 
+	width: 70%;
+	clear: both;
+	
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: garamond;
+    color: blue;
+}
+
+#controls{
+    margin-top: 70px;
+    font-family: clarendon;
+    background-color: white;
+    border-radius: 5px;
+    border: 5px inset solid blue;
+    padding: 5px;
+}
+
+#result{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: clarendon;
+     border-radius: 5px;
+    border: 2px inset solid black;
+    padding: 5px;
+}
+
+li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: clarendon;
+    background-color: grey;
+    border-radius: 5px;
+    border: 2px inset solid black;
+    padding: 5px;
+}
+
+
+
+
+name{
+    font-size: 70px;
+    font-family: futura;
+}
+
+ruler{
+    font-size: 14px;
+    font-family: futura;
+    text-shadow: 1px 1px white;
+}
+
+
+#videobcg { 
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: -1000;
+     overflow: hidden;
+}
+

@@ -12,7 +12,6 @@ function show(){
 function search(){
     
     var term = $('term').value;
-    alert("working.");
     
     /*if (term == ""){
         term = "asd";

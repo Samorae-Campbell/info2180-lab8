@@ -43,7 +43,7 @@ function successFunction(dataPackage){
 
  new Ajax.Updater(
     "result",
-    "https://info2180-lab8-samorae101-1.c9.io/world.php",
+    "world.php",
     {
       parameters : {term: term, all: all, xml: xml},
       method: "get"

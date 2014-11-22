@@ -12,6 +12,7 @@ function show(){
 function search(){
     
     var term = $('term').value;
+    alert("working.");
     
     /*if (term == ""){
         term = "asd";
@@ -42,7 +43,7 @@ function successFunction(dataPackage){
 
  new Ajax.Updater(
     "result",
-    "https://lab8-samorae101.c9.io/world.php",
+    "https://info2180-lab8-samorae101-1.c9.io/world.php",
     {
       parameters : {term: term, all: all, xml: xml},
       method: "get"
